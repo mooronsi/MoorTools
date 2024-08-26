@@ -1,8 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorTools.Keys", "src\MoorTools.Keys\MoorTools.Keys.csproj", "{4E90A904-1DD5-4386-B4AA-358F6F7F1610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keys", "Keys", "{3BB5492D-60BD-4F71-9D79-21E1682E653E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F465D917-C228-4F95-B5B3-1414A8AE31DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC86C371-9DAE-4813-A5EB-6BEFEA74E050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keys", "Keys", "{CCC7665A-09CE-4715-899E-BDF6B97E8F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorTools.Keys.UnitTests", "tests\MoorTools.Keys.UnitTests\MoorTools.Keys.UnitTests.csproj", "{14B98F1B-95F9-46CD-B2C6-E46748791279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E90A904-1DD5-4386-B4AA-358F6F7F1610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E90A904-1DD5-4386-B4AA-358F6F7F1610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E90A904-1DD5-4386-B4AA-358F6F7F1610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E90A904-1DD5-4386-B4AA-358F6F7F1610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B98F1B-95F9-46CD-B2C6-E46748791279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B98F1B-95F9-46CD-B2C6-E46748791279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B98F1B-95F9-46CD-B2C6-E46748791279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B98F1B-95F9-46CD-B2C6-E46748791279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E90A904-1DD5-4386-B4AA-358F6F7F1610} = {3BB5492D-60BD-4F71-9D79-21E1682E653E}
+		{3BB5492D-60BD-4F71-9D79-21E1682E653E} = {F465D917-C228-4F95-B5B3-1414A8AE31DF}
+		{CCC7665A-09CE-4715-899E-BDF6B97E8F58} = {DC86C371-9DAE-4813-A5EB-6BEFEA74E050}
+		{14B98F1B-95F9-46CD-B2C6-E46748791279} = {CCC7665A-09CE-4715-899E-BDF6B97E8F58}
 	EndGlobalSection
 EndGlobal
